@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo -e "Aqui se va almacenar todo los archivos exe"
+echo -e "Aqui se va almacenar todas las apk que crees :)"

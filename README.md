@@ -29,3 +29,5 @@ Redes.
 Seguridad informática.
 
 # Instalación:
+
+git clone https://github.com/Plumst-37/Testor/

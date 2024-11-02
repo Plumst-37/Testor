@@ -30,13 +30,14 @@ Seguridad informática.
 
 # Instalación:
 
+```
 git clone https://github.com/Plumst-37/Testor/
 
 cd Testor
 
 ./Testor.sh
 
-
+```
 # Advertencias:
 
 Uso ético: Utiliza esta herramienta únicamente con fines educativos y en entornos de laboratorio autorizados.

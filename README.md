@@ -31,3 +31,14 @@ Seguridad informática.
 # Instalación:
 
 git clone https://github.com/Plumst-37/Testor/
+
+cd Testor
+
+./Testor.sh
+
+
+# Advertencias:
+
+Uso ético: Utiliza esta herramienta únicamente con fines educativos y en entornos de laboratorio autorizados.
+Responsabilidad: Eres responsable del uso que hagas de esta herramienta.
+Riesgos: La creación y uso de backdoors puede ser ilegal y acarrear consecuencias legales.

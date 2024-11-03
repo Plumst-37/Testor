@@ -50,6 +50,8 @@ git clone https://github.com/Plumst-37/Testor/
 
 cd Testor
 
+chmod +x Testor.sh
+
 ./Testor.sh
 ```
 # Advertencias:

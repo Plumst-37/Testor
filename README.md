@@ -1,7 +1,7 @@
 <h3><p align="center">Testor</p></h3>
 
 <p align="center">
-  <img src=".github.com/Plumst-37/Testor/blob/main/imagenes/Testor_imagen.png">
+  <img src="https://github.com/Plumst-37/Testor/blob/main/imagenes/Testor_imagen.png">
 </p>
 
 ● Testor: Un Framework Educativo para la Creación de Backdoors

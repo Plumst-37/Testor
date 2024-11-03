@@ -128,7 +128,7 @@ apt update -y
 
 apt upgrade -y
 
-git clone https://github.com/venom-24/Tunel-ngrok.gi
+git clone https://github.com/venom-24/Tunel-ngrok.git
 
 cd Tunel-ngrok;ls
 

@@ -1,12 +1,12 @@
-<h3><p align="center">Testor</p></h3>
-
-<p align="center">
-  <img src="https://github.com/Plumst-37/Testor/blob/main/imagenes/Testor_imagen.png">
-</p>
+# Testor
 
 ● Testor: Un Framework Educativo para la Creación de Backdoors
 
 ○ Disclaimer: Este proyecto tiene fines estrictamente educativos. El uso de esta herramienta para actividades ilícitas es ilegal y puede tener graves consecuencias legales.
+
+<p align="center">
+  <img src="https://github.com/Plumst-37/Testor/blob/main/imagenes/Testor_imagen.png">
+</p>
 
 # Descripción:
 

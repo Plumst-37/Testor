@@ -91,7 +91,7 @@ pkg upgrade -y
 
 chmod +x /termux/requerimientos.sh
 
-read -p "Quieres descargar metasploit "
+read -p "Quieres descargar metasploit(Y/n): " opcion_termux
 case $opcion_termux in
 
 [Yy]) bash /termux/requerimientos.sh;;

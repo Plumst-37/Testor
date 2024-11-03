@@ -66,7 +66,7 @@ esac
 
 }
 
-Linux(){
+linux(){
 
 	sudo apt update -y
 	sudo apt upgrade -y
@@ -83,7 +83,7 @@ Linux(){
 }
 
 
-Termux(){
+termux(){
 
 pkg update -y
 

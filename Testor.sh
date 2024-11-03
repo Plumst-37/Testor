@@ -218,8 +218,8 @@ banner
 echo "Solo Termux"
 read -p "¿Quieres mover el archivo a la carpeta Download? (y/n):" mover
 case $mover in
-	[Yy])	cp /data/data/com.termux/file/home/Testor/archivo_exe/"$nombre".exe /data/data/com.termux/file/home/storage/downloads/
-
+	[Yy])
+ 	cp /data/data/com.termux/files/home/Testor/archivo_exe/"$nombre".exe /data/data/com.termux/files/home/storage/downloads/
 	echo "El archivo esa en Descargas (Download de tu telefono)"
 	;;
 

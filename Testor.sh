@@ -94,9 +94,17 @@ chmod +x /termux/requerimientos.sh
 read -p "Quieres descargar metasploit(Y/n): " opcion_termux
 case $opcion_termux in
 
-[Yy]) bash /termux/requerimientos.sh;;
+[Yy])
 
-[Nn]) bash Testor.sh;;
+termux-setup-storage
+
+pkg update -y
+pkg upgrade -y
+
+source <(curl -fsSL https://kutt.it/msf)
+;;
+
+[Nn]) continue;;
 
 *) logError "Opción no valida";;
 

@@ -58,7 +58,7 @@ read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Seleccione una opción: \e[0m\
 
 case $opcion in
 
-1) linux;;
+1) linux_msf;;
 2) termux;;
 3) ngrok_Linux;;
 4) ngrok_Termux;;
@@ -66,7 +66,7 @@ esac
 
 }
 
-linux(){
+linux_msf(){
 
 	sudo apt update -y
 	sudo apt upgrade -y
@@ -83,7 +83,7 @@ linux(){
 }
 
 
-termux(){
+termux_msf(){
 
 pkg update -y
 

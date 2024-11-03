@@ -104,7 +104,7 @@ esac
 
 }
 
-Linux(){
+ngrok_Linux(){
 
 
 curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
@@ -121,7 +121,7 @@ ngrok config add-authtoken $authtoken
 
 }
 
-Termux(){
+ngrok_Termux(){
 
 
 apt update && apt upgrade -y

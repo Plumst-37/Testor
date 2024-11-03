@@ -47,7 +47,6 @@ git clone https://github.com/Plumst-37/Testor/
 cd Testor
 
 ./Testor.sh
-
 ```
 # Advertencias:
 

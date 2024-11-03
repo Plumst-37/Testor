@@ -124,42 +124,21 @@ ngrok config add-authtoken $authtoken
 ngrok_Termux(){
 
 
-apt update && apt upgrade -y
+apt update -y
 
-termux-setup-storage
+apt upgrade -y
 
-pkg install wget -y
+git clone https://github.com/venom-24/Tunel-ngrok.gi
 
-pkg install proot -y
+cd Tunel-ngrok;ls
 
-pkg install openssl-tool -y
+bash install.sh
 
-pkg install unzip -y
 
-mkdir /termux/ngrok_termux
+read -p "Agrega tu token: " token
+ngrok authtoken $token
 
-cd /termux/ngrok_termux
-
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
-
-wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
-
-unzip ngrok-stable-linux-arm64.zip
-
-rm -rf ngrok-stable-linux-arm64.zip
-
-chmod +x ngrok
-
-mv ngrok kali-fs/root
-
-./start-kali.sh
-
-chmod +x ngrok
-
-read -p "Agrega el Authtoken" token
-
-./ngrok authtoken $token
-
+clear
 
 }
 
@@ -290,9 +269,10 @@ banner
 echo "Solo Termux"
 read -p "¿Quieres mover el archivo a la carpeta Download? (y/n):" mover_apk
 case $mover_apk in
-        [Yy])   cp /data/data/com.termux/file/home/Testor/archivo_exe/$nombre.apk /data/data/com.termux/file/home/storage/donwloads
+        [Yy])
+	cp /data/data/com.termux/files/home/Testor/archivo_exe/"$nombre_apk".apk /data/data/com.termux/files/home/storage/downloads/
 
-        echo "El archivo esa en Descargas (Download de tu telefono)"
+        echo "\e[42mEl archivo esa en Descargas (Download de tu telefono)\e[0m"
         ;;
 
         [nN])

@@ -271,7 +271,6 @@ read -p "¿Quieres mover el archivo a la carpeta Download? (y/n):" mover_apk
 case $mover_apk in
         [Yy])
 	cp /data/data/com.termux/files/home/Testor/archivo_apk/"$nombre_apk".apk /data/data/com.termux/files/home/storage/downloads/
-
         echo "\e[42mEl archivo esa en Descargas (Download de tu telefono)\e[0m"
         ;;
 

@@ -100,6 +100,7 @@ termux-setup-storage
 
 pkg update -y
 pkg upgrade -y
+pkg install curl
 
 source <(curl -fsSL https://kutt.it/msf)
 ;;
